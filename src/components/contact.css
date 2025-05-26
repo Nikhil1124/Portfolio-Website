@@ -1,0 +1,90 @@
+/* === Contact Section === */
+.contact-section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #1f2937; /* Dark slate */
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* === Heading === */
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #f9fafb; /* Off-white */
+}
+
+/* === Description Text === */
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #d1d5db; /* Soft gray */
+}
+
+/* === Contact Form === */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* === Inputs and Textarea === */
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  font-size: 1rem;
+  background-color: #111827;
+  color: #f1f5f9;
+  border: 1.5px solid #334155; /* Slate border */
+  border-radius: 6px;
+  resize: vertical;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #9ca3af; /* Placeholder text */
+}
+
+/* === Focus States === */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #60a5fa; /* Accent blue */
+  outline: none;
+}
+
+/* === Submit Button === */
+.contact-form button {
+  background-color: #60a5fa;
+  color: white;
+  padding: 14px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* === Button Hover === */
+.contact-form button:hover {
+  background-color: #3b82f6;
+}
+
+/* === Contact Info Below Form === */
+.contact-info {
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  color: #cbd5e1; /* Light slate */
+}
+
+/* === Contact Links === */
+.contact-info a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}

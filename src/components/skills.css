@@ -1,0 +1,58 @@
+/* === Skills Section Container === */
+.skills-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: left;
+  background-color: #1f2937; /* Dark slate background */
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+.skill{
+  margin-top: 140px;
+  margin-bottom: 50px;
+}
+/* === Section Heading === */
+.skills-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #f9fafb; /* Off-white text */
+}
+
+/* === Skills Container === */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* === Individual Skill Bar Wrapper === */
+.skill-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Skill Name === */
+.skill-name {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #d1d5db; /* Soft gray text */
+}
+
+/* === Progress Bar Background === */
+.progress-bar {
+  background-color: #334155; /* Slate color */
+  border-radius: 8px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* === Progress Level (Filling Bar) === */
+.progress-level {
+  background-color: #60a5fa; /* Accent blue */
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+  transition: width 0.5s ease;
+}

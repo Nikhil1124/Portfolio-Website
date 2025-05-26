@@ -1,0 +1,30 @@
+/* === Footer Container === */
+.footer {
+  background-color: #0f172a; /* Deep dark slate */
+  color: #cbd5e1; /* Light slate text */
+  text-align: center;
+  padding: 24px 10px;
+  font-size: 0.9rem;
+  margin-top: 60px;
+  border-top: 1px solid #1e293b;
+}
+
+/* === Social Links Wrapper === */
+.footer .social-links {
+  margin-top: 12px;
+}
+
+/* === Individual Social Link === */
+.footer .social-links a {
+  color: #60a5fa; /* Accent blue */
+  margin: 0 12px;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+/* === Hover Effect === */
+.footer .social-links a:hover {
+  color: #3b82f6; /* Brighter blue on hover */
+  text-decoration: underline;
+}
